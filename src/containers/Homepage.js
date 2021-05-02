@@ -1,12 +1,6 @@
-import React from 'react'
-import Header from '../components/Header'
-import MenuHeader from '../components/MenuHeader'
+import React from "react";
+import Layout from "../components/Layout";
 
 export default function Homepage() {
-    return (
-        <div>
-            <Header/>
-            <MenuHeader/>
-        </div>
-    )
+  return <Layout>Homepage</Layout>;
 }

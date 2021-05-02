@@ -3,7 +3,6 @@ import { ADD_NEW_CATEGORY_FAILURE, ADD_NEW_CATEGORY_REQUEST, ADD_NEW_CATEGORY_SU
 
 export const getAllCategory = () => {
     return async dispatch => {
-        console.log('a')
         dispatch({type: GET_ALL_CATEGORIES_REQUEST})
         const res = await axios.get('/category/getCategory');
         console.log(res.data);
